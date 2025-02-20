@@ -31,12 +31,20 @@
 			background-color: white;
 			border: 1px solid #0F6ED0;
 		}
+		.xxx{
+			font-size: 0.9rem;
+			cursor: pointer;
+			background-color: #0F6ED0;
+			color: white;
+			border: 1px solid black;
+			border-radius: 5px;
+		}
 	</style>
 </head>
 <body>
 
 	<form action="" method="POST">
-		<input type="text" id="color" name="color" placeholder="Escribe un Color" autofocus>
+		<input type="text" id="color" name="color" class="xxx" placeholder="Escribe un Color" autofocus>
 		<input type="submit" class="btn" value="Enviar">
 	</form>
 
