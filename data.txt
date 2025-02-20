@@ -1,3 +1,9 @@
+CamelCase = esteEsMiCamelCase
+SnakeCase = este_es_mi_snake_case
+GuionCase = este-es-mi-guion-case
+
+PHP Fiddle => https://onecompiler.com/php
+
 - Jerarquía de Estilos
     - Estilo va de Arriba hacia Abajo
     - Primero Estilo en Linea
@@ -14,8 +20,3 @@
 
 Entrar en carpeta = nombre_carpeta/$
 Nivel superior = ../$
-
-CamelCase = esteEsMiCamelCase
-SnakeCase = este_es_mi_snake_case
-GuionCase = este-es-mi-guion-case
-
