@@ -31,46 +31,19 @@
 			background-color: white;
 			border: 1px solid #0F6ED0;
 		}
-		.xxx{
-			font-size: 0.9rem;
-			cursor: pointer;
-			background-color: #0F6ED0;
-			color: white;
-			border: 1px solid black;
-			border-radius: 5px;
-		}
 	</style>
 </head>
 <body>
 
 	<form action="" method="POST">
-		<input type="text" id="color" name="color" class="xxx" placeholder="Escribe un Color" autofocus>
+		<input type="text" id="color" name="color" class="caja" placeholder="Escribe un Color" autofocus>
 		<input type="submit" class="btn" value="Enviar">
 	</form>
 
 	<?php
 		$color = $_POST['color'];
 
-		if ($color == 'rojo') {
-	?>
-		<span class="rojo">Eres color Rojo</span>
-	<?php
-		}
-		elseif ($color == 'azul'){
-	?>
-		<span class="azul">Eres color Azul</span>
-	<?php
-		}
-		elseif ($color == 'teal'){
-	?>
-		<span class="teal">Eres color Teal</span>
-	<?php
-		}
-		else{
-	?>
-		<span>Eres otro color...</span>
-	<?php
-		}
+		echo 'Color => '.$color;
 	?>
 
 </body>
